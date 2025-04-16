@@ -46,12 +46,15 @@ async function loadSongs() {
 
     songs.forEach(song => {
         const div = document.createElement('div');
+        div.classList.add('song-card');
         div.innerHTML = `
-        <strong>${song.title}</strong> | ${song.artist} | ${song.genre} | ⭐ ${song.rating}</br>
-                <button onclick="editSong('${song._id}', '${song.title}', '${song.artist}', '${song.genre}', '${song.rating}')">Redigera</button>
+        <strong>${song.title}</strong>
+        <div>${song.artist} | ${song.genre} | ${song.rating}⭐</div>
+        <button onclick="editSong('${song._id}', '${song.title}', '${song.artist}', '${song.genre}', '${song.rating}')">Redigera</button>
         <button onclick="deleteSong('${song._id}')">Ta bort</button>
         `;
         container.appendChild(div);
+        
     });
 }
 
