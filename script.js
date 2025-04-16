@@ -41,7 +41,7 @@ async function loadSongs() {
     const response = await fetch(API_URL);
     const songs = await response.json();
 
-    const container = document.getElementById('songsContainer');
+    const container = document.getElementById('songContainer');
     container.innerHTML = '';
 
     songs.forEach(song => {
@@ -82,4 +82,4 @@ document.getElementById('cancelEditBtn').addEventListener('click', () => {
     document.getElementById('artist').value = '';
     document.getElementById('genre').value = '';
     document.getElementById('rating').value = '';
-  });
+});
