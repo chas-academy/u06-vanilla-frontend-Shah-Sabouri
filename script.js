@@ -69,6 +69,17 @@ function editSong(id, title, artist, genre, rating) {
     document.getElementById('rating').value = rating;
     editId = id;
     document.getElementById('addSongBtn').textContent = 'Uppdatera låt';
+    document.getElementById('cancelEditBtn').style.display = 'inline-block';
 }
-  
+
 window.onload = loadSongs;
+
+document.getElementById('cancelEditBtn').addEventListener('click', () => {
+    editId = null;
+    document.getElementById('addSongBtn').textContent = 'Lägg till låt';
+    document.getElementById('cancelEditBtn').style.display = 'none';
+    document.getElementById('title').value = '';
+    document.getElementById('artist').value = '';
+    document.getElementById('genre').value = '';
+    document.getElementById('rating').value = '';
+  });
