@@ -48,8 +48,8 @@ async function loadSongs() {
         const div = document.createElement('div');
         div.innerHTML = `
         <strong>${song.title}</strong> | ${song.artist} | ${song.genre} | ⭐ ${song.rating}
+                <button onclick="editSong('${song._id}', '${song.title}', '${song.artist}', '${song.genre}', '${song.rating}')">Redigera</button>
         <button onclick="deleteSong('${song._id}')">Ta bort</button>
-        <button onclick="editSong('${song._id}', '${song.title}', '${song.artist}', '${song.genre}', '${song.rating}')">Redigera</button>
         `;
         container.appendChild(div);
     });

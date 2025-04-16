@@ -88,3 +88,21 @@ section {
     width: 100%;
     margin-bottom: 0.5rem;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* SIDA VID SIDA PÅ STÖRRE SKÄRM, LÅTLISTA ÖVER LÄGG-TILL-SEKTION PÅ MINDRE*/
+@media (min-width: 768px) {
+    main {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    section {
+        flex: 1;
+    }
+}

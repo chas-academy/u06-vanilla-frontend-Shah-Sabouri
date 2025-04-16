@@ -8,22 +8,21 @@
 </head>
 <body>
     <h1>🎵 Musikbibliotek</h1>
+    <main>
+        <section id="song-list">
+            <h2>Befintliga låtar</h2>
+            <div id="songContainer"></div>
+        </section>
 
-    <section id="song-form">
-        <h2>Lägg till ny låt</h2>
-        <input type="text" id="title" placeholder="Titel"/>
-        <input type="text" id="artist" placeholder="Artist"/>
-        <input type="text" id="genre" placeholder="Genre"/>
-        <input type="number" id="rating" placeholder="Rating (1-5)"/>
-        <button id="addSongBtn">Lägg till låt</button>
-        <button id="cancelEditBtn" style="display: none;">Avbryt</button>
-    </section>
-
-    <section id="song-list">
-        <h2>Befintliga låtar</h2>
-        <div id="songContainer"></div>
-    </section>
-
+        <section id="song-form">
+            <h2>Lägg till ny låt</h2>
+            <input type="text" id="title" placeholder="Titel"/>
+            <input type="text" id="artist" placeholder="Artist"/>
+            <input type="text" id="genre" placeholder="Genre"/>
+            <input type="number" id="rating" placeholder="Rating (1-5)"/>
+            <button id="addSongBtn">Lägg till låt</button>
+            <button id="cancelEditBtn" style="display: none;">Avbryt</button>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
-</html>
