@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+}
+
+input, button {
+    margin: 0.5rem 0;
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#songsContainer {
+    margin-top: 1rem;
+}
