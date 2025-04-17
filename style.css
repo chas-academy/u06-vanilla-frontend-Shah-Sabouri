@@ -1,17 +1,19 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 10px;
+    padding: 0;
 }
 
 body {
     margin: 0;
     font-family: sans-serif;
     padding: 20px;
+    background-color: #f4f4f9;
 }
 
 h1 {
     text-transform: uppercase;
+    color: #333;
 }
 
 h1, h2 {
@@ -37,7 +39,7 @@ section {
 }
 
 #song-form button {
-    background-color: green;
+    background-color: green; 
     color: white;
     padding: 0.75rem;
     border: none;
@@ -75,48 +77,6 @@ section {
     padding: 10px;
 }
 
-.song-card {
-    background-color: #f5f5f5;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-}
-
-.song-card strong {
-    display: block;
-    font-size: 1.1rem;
-    margin-bottom: 0.25rem;
-}
-
-.song-card button {
-    margin-top: 0.5rem;
-    margin-right: 0.5rem;
-    padding: 0.5rem 0.75rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.song-card button:first-of-type {
-    background-color: orange;
-    color: white;
-}
-
-.song-card button:first-of-type:hover {
-    background-color: darkorange;
-}
-
-.song-card button:last-of-type {
-    background-color: crimson;
-    color: white;
-}
-
-.song-card button:last-of-type:hover {
-    background-color: darkred;
-}
-
 .edit-section {
     width: 100%;
     margin-top: 0.5rem;
@@ -127,16 +87,48 @@ section {
     margin-bottom: 0.5rem;
 }
 
+#searchForm input {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#searchForm button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#searchForm button:hover {
+    background-color: #45a049;
+}
+
+#resetBtn {
+    background-color: #f44336;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#resetBtn:hover {
+    background-color: #da190b;
+}
+
 main {
     display: flex;
     flex-direction: column;
 }
 
-/* SIDA VID SIDA PÅ STÖRRE SKÄRM, LÅTLISTA ÖVER LÄGG-TILL-SEKTION PÅ MINDRE*/
+/* För större skärm med låtlistan och sökformulär som ligger på samma rad */
 @media (min-width: 768px) {
     main {
         flex-direction: row;
-        align-items: flex-start; /* 🔑 gör så att de inte tvingas bli lika höga */
         gap: 50px;
     }
 
@@ -144,8 +136,17 @@ main {
         flex: 1;
     }
 
+    #searchForm input {
+        width: 70%;
+    }
+
     #song-list {
         flex: 2;
-        height: 600px;
+    }
+}
+
+@media (max-width: 767px) {
+    #searchForm input {
+        width: 53%;
     }
 }

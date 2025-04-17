@@ -10,6 +10,13 @@
     <h1>🎵 Musikbibliotek</h1>
     <main>
         <section id="song-list">
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Sök efter artist..." />
+                <button type="submit">Sök</button>
+                <button type="button" id="resetBtn">Visa alla</button>
+                <button type="button" id="sortBtn">Sortera efter betyg</button>
+            </form>
+        
             <h2>Befintliga låtar</h2>
             <div id="songContainer"></div>
         </section>
@@ -26,3 +33,4 @@
     </main>
     <script src="script.js"></script>
 </body>
+</html>
