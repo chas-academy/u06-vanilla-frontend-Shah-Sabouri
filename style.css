@@ -10,6 +10,9 @@ body {
     padding: 20px;
     background-image: url('resources/musbackround1_08.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -24,7 +27,8 @@ h1, h2 {
 }
 
 section {
-    background: white;
+    background: #d1d1d1;
+    border: 1px solid #b4b4b4;
     border-radius: 10px;
     padding: 1rem;
     margin-bottom: 1.5rem;
@@ -52,6 +56,7 @@ section {
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
+    text-align: center;
 }
 
 #addSongBtn {
@@ -74,20 +79,18 @@ section {
 
 #song-list {
     height: 400px;
-    border: 1px solid #ccc;
     overflow: hidden;
     display: flex;
     flex-direction: column;
 }
 
 #song-list h2 {
-    background-color: white;
     padding: 10px;
     margin: 0;
     position: sticky;
     top: 0;
     z-index: 1;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #b4b4b4;
 }
 
 #songContainer {
