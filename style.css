@@ -8,12 +8,14 @@ body {
     margin: 0;
     font-family: sans-serif;
     padding: 20px;
-    background-color: #f4f4f9;
+    background-image: url('resources/musbackround1_08.jpg');
+    background-size: cover;
 }
 
 h1 {
     text-transform: uppercase;
-    color: #333;
+    color: white;
+    text-shadow: 0 2px 8px black;
 }
 
 h1, h2 {
