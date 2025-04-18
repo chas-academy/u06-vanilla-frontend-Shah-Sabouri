@@ -77,16 +77,6 @@ section {
     padding: 10px;
 }
 
-.edit-section {
-    width: 100%;
-    margin-top: 0.5rem;
-}
-
-.edit-section input {
-    width: 100%;
-    margin-bottom: 0.5rem;
-}
-
 #searchForm input {
     padding: 0.5rem;
     border-radius: 6px;
