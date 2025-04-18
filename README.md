@@ -13,6 +13,7 @@ Detta projekt är ett musikbibliotek där användare kan lägga till, uppdatera,
 
 ## Teknologier som används
 - **Frontend**:
+  - Deploy-länk på [Netlify](https://jovial-sunflower-f85d8e.netlify.app)
   - HTML
   - CSS
   - JavaScript (Vanilla JS för API-anrop och interaktioner)
