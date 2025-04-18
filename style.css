@@ -60,12 +60,12 @@ section {
 }
 
 #addSongBtn {
-    background-color: green;
+    background-color: #4CAF50;
     color: white;
 }
 
 #addSongBtn:hover {
-    background-color: limegreen;
+    background-color: #45a049;
 }
 
 #cancelEditBtn {
