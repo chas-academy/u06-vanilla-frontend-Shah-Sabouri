@@ -35,10 +35,11 @@ open index.html
 
 ## Figma-skissar
 
-[![Figma Sketch Front Page (desktop)](https://www.figma.com/design/MyttYqSAjDlaZysy1cmrdJ/U06-SKISS---SHAHRYAR?node-id=1-4&t=WWuIkflG0Sey7Ixq-1)]
+[![Figma Sketch Front Page (desktop)](https://www.figma.com/embed?embed_host=github&url=https://www.figma.com/design/MyttYqSAjDlaZysy1cmrdJ/U06-SKISS---SHAHRYAR?node-id=1-4&t=WWuIkflG0Sey7Ixq-1)](https://www.figma.com/design/MyttYqSAjDlaZysy1cmrdJ/U06-SKISS---SHAHRYAR?node-id=1-4&t=WWuIkflG0Sey7Ixq-1)
 
-[![Figma Sketch Front Page (mobile)](https://www.figma.com/design/MyttYqSAjDlaZysy1cmrdJ/U06-SKISS---SHAHRYAR?node-id=1-3&t=WWuIkflG0Sey7Ixq-1)]
+[![Figma Sketch Front Page (mobile)](https://www.figma.com/embed?embed_host=github&url=https://www.figma.com/design/MyttYqSAjDlaZysy1cmrdJ/U06-SKISS---SHAHRYAR?node-id=1-3&t=WWuIkflG0Sey7Ixq-1)](https://www.figma.com/design/MyttYqSAjDlaZysy1cmrdJ/U06-SKISS---SHAHRYAR?node-id=1-3&t=WWuIkflG0Sey7Ixq-1)
 
-[![Figma Sketch Edit Song Mode (desktop)](https://www.figma.com/design/MyttYqSAjDlaZysy1cmrdJ/U06-SKISS---SHAHRYAR?node-id=2-86&t=WWuIkflG0Sey7Ixq-1)]
+[![Figma Sketch Edit Song Mode (desktop)](https://www.figma.com/embed?embed_host=github&url=https://www.figma.com/design/MyttYqSAjDlaZysy1cmrdJ/U06-SKISS---SHAHRYAR?node-id=2-86&t=WWuIkflG0Sey7Ixq-1)](https://www.figma.com/design/MyttYqSAjDlaZysy1cmrdJ/U06-SKISS---SHAHRYAR?node-id=2-86&t=WWuIkflG0Sey7Ixq-1)
 
-[![Figma Sketch Edit Song Mode (mobile)](https://www.figma.com/design/MyttYqSAjDlaZysy1cmrdJ/U06-SKISS---SHAHRYAR?node-id=2-130&t=WWuIkflG0Sey7Ixq-1)]
+[![Figma Sketch Edit Song Mode (mobile)](https://www.figma.com/embed?embed_host=github&url=https://www.figma.com/design/MyttYqSAjDlaZysy1cmrdJ/U06-SKISS---SHAHRYAR?node-id=2-130&t=WWuIkflG0Sey7Ixq-1)](https://www.figma.com/design/MyttYqSAjDlaZysy1cmrdJ/U06-SKISS---SHAHRYAR?node-id=2-130&t=WWuIkflG0Sey7Ixq-1)
+
